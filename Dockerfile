@@ -1,3 +1,3 @@
 FROM ubuntu:16.04
-RUN echo "Hello world!"
-RUN uname -a
+CMD echo "Hello world!"
+CMD uname -a
